@@ -13,7 +13,7 @@ import Vue from 'vue'
         mode: 'history',
         routes: [
             {
-                path: '/#',
+                path: '/',
                 name: 'home',
                 component: Welcome,
                 meta: { title: 'Home' }

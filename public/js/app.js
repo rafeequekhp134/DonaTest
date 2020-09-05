@@ -39717,7 +39717,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "flex-center position-ref full-height" }, [
       _c("div", { staticClass: "content" }, [
         _c("div", { staticClass: "title m-b-md" }, [
-          _vm._v("\n            Welcome to Vue.js on Laravel\n        ")
+          _vm._v("\n            Welcome to The WRCodeTest\n        ")
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "links" }, [

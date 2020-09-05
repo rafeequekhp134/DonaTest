@@ -2,7 +2,7 @@
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="title m-b-md">
-                Welcome to Vue.js on Laravel
+                Welcome to The WRCodeTest
             </div>
             <div class="links">
                 <a href="https://laravel.com/docs">View Laravel Docs</a>

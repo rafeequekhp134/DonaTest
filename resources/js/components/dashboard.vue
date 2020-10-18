@@ -16,10 +16,14 @@
           <span>
             {{ slotProps.model.name }} </span>
         </template>
-        <span class="icon" slot="addTreeNodeIcon" title="Add folder">📂</span>
-        <span class="icon" slot="addLeafNodeIcon" title="Add file">＋</span>
-        <span class="icon" slot="editNodeIcon" title="Edit name">📃</span>
-        <span class="icon" slot="delNodeIcon" title="Delete">✂️</span>
+        <!-- <span class="icon" slot="addTreeNodeIcon" title="Add folder">📂</span> -->
+        <span class="icon" slot="addTreeNodeIcon" title="Add folder"><i class="vtl-icon vtl-icon-folder-plus-e"></i></span>
+        <!-- <span class="icon" slot="addLeafNodeIcon" title="Add file">＋</span> -->
+        <span class="icon" slot="addLeafNodeIcon" title="Add file"><i class="vtl-icon vtl-icon-plus"></i></span>
+        <!-- <span class="icon" slot="editNodeIcon" title="Edit name">📃</span> -->
+        <span class="icon" slot="editNodeIcon" title="Edit name"><i class="vtl-icon vtl-icon-edit"></i></span>
+        <!-- <span class="icon" slot="delNodeIcon" title="Delete">✂️</span> -->
+        <span class="icon" slot="delNodeIcon" title="Delete"><i class="vtl-icon vtl-icon-trash"></i></span>
         <!-- <span class="icon" slot="leafNodeIcon">🍃</span> -->
         <span class="icon" slot="leafNodeIcon">📃</span>
         <!-- <span class="icon" slot="treeNodeIcon">🌲</span> -->
@@ -252,5 +256,15 @@ export default {
   }
   .vtl {
     width: 100%;
+  }
+  .vtl-node-main .vtl-operation {
+    display: inline-flex;
+    align-items: center;
+  }
+  .icon {
+    font-size: 18px;
+  }
+  .add-icon i {
+    color: blue;
   }
 </style>

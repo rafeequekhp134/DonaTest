@@ -2028,6 +2028,10 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 //
 //
 //
+//
+//
+//
+//
 
 /* global store router */
 
@@ -6966,7 +6970,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.filesWrapper[data-v-57220a4e] {\n  justify-content: center;\n}\n.searchFiles[data-v-57220a4e] {\n  width: 50%;\n  margin: 0 5px;\n  float: right;\n}\n.upload-btn[data-v-57220a4e] {\n  display: flex;\n  justify-content: flex-end;\n}\n.treeWrap[data-v-57220a4e] {\n  display: flex;\n  flex-direction: column;\n  align-items: baseline;\n  padding: 30px;\n}\n.button[data-v-57220a4e] {\n  padding: 10px 14px;\n  background: #3c76d2;\n  color: #fff;\n  margin: 15px 0;\n}\n.vtl[data-v-57220a4e] {\n  width: 100%;\n}\n", ""]);
+exports.push([module.i, "\n.filesWrapper[data-v-57220a4e] {\n  justify-content: center;\n}\n.searchFiles[data-v-57220a4e] {\n  width: 50%;\n  margin: 0 5px;\n  float: right;\n}\n.upload-btn[data-v-57220a4e] {\n  display: flex;\n  justify-content: flex-end;\n}\n.treeWrap[data-v-57220a4e] {\n  display: flex;\n  flex-direction: column;\n  align-items: baseline;\n  padding: 30px;\n}\n.button[data-v-57220a4e] {\n  padding: 10px 14px;\n  background: #3c76d2;\n  color: #fff;\n  margin: 15px 0;\n}\n.vtl[data-v-57220a4e] {\n  width: 100%;\n}\n.vtl-node-main .vtl-operation[data-v-57220a4e] {\n  display: inline-flex;\n  align-items: center;\n}\n.icon[data-v-57220a4e] {\n  font-size: 18px;\n}\n.add-icon i[data-v-57220a4e] {\n  color: blue;\n}\n", ""]);
 
 // exports
 
@@ -39789,7 +39793,7 @@ var render = function() {
                   attrs: { slot: "addTreeNodeIcon", title: "Add folder" },
                   slot: "addTreeNodeIcon"
                 },
-                [_vm._v("📂")]
+                [_c("i", { staticClass: "vtl-icon vtl-icon-folder-plus-e" })]
               ),
               _vm._v(" "),
               _c(
@@ -39799,7 +39803,7 @@ var render = function() {
                   attrs: { slot: "addLeafNodeIcon", title: "Add file" },
                   slot: "addLeafNodeIcon"
                 },
-                [_vm._v("＋")]
+                [_c("i", { staticClass: "vtl-icon vtl-icon-plus" })]
               ),
               _vm._v(" "),
               _c(
@@ -39809,7 +39813,7 @@ var render = function() {
                   attrs: { slot: "editNodeIcon", title: "Edit name" },
                   slot: "editNodeIcon"
                 },
-                [_vm._v("📃")]
+                [_c("i", { staticClass: "vtl-icon vtl-icon-edit" })]
               ),
               _vm._v(" "),
               _c(
@@ -39819,7 +39823,7 @@ var render = function() {
                   attrs: { slot: "delNodeIcon", title: "Delete" },
                   slot: "delNodeIcon"
                 },
-                [_vm._v("✂️")]
+                [_c("i", { staticClass: "vtl-icon vtl-icon-trash" })]
               ),
               _vm._v(" "),
               _c(

@@ -2,7 +2,7 @@
   <v-toolbar dark color="primary">
     <v-toolbar-side-icon></v-toolbar-side-icon>
 
-    <v-toolbar-title class="white--text">WRCodeTest</v-toolbar-title>
+    <v-toolbar-title class="white--text">TreeView</v-toolbar-title>
 
     <v-spacer></v-spacer>
 

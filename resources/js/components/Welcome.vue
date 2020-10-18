@@ -2,8 +2,11 @@
     <div class="flex-center position-ref full-height">
         <div class="content">
             <div class="title m-b-md">
-                Welcome to The WRCodeTest
+                Welcome to The TreeView
             </div>
+            <p>Please register / login</p>
+            <span>guest@guest.com / guest</span><br/>
+            <br/>
             <div class="links">
                 <a href="https://laravel.com/docs">View Laravel Docs</a>
                 <a href="https://vuejs.org/v2/guide/">View Vue Docs</a>

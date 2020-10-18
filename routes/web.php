@@ -37,15 +37,11 @@ Route::group([
 
 ], function ($router) {
 
-    Route::get('documents', 'DocumentController@index');
-    Route::get('documents_dir', 'DocumentController@read');
-    Route::get('search_documents', 'DocumentController@search');
-    Route::post('document_delete', 'DocumentController@delete');
+    Route::get('tree', 'TreeController@index');
+    Route::post('tree', 'TreeController@save');
     
 });
 
 Route::post('register', 'AuthController@register');
-Route::post('store-file', 'DocumentController@store');
 
 Route::get('/', 'IndexController@index')->name('index');
-// Route::get('/blogs', 'BlogController@index')->name('blog');

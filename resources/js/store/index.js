@@ -7,7 +7,7 @@ const store = new Vuex.Store({
   state: {
     session: {},
     user: {},
-    documents: [],
+    tree: {},
   },
   mutations: {
     setUser (state, user) {
@@ -16,8 +16,8 @@ const store = new Vuex.Store({
     setSession (state, session) {
       state.session = session
     },
-    setDocuments (state, documents) {
-      state.documents = documents
+    setTree (state, tree) {
+      state.tree = tree
     },
   }
 })

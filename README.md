@@ -5,13 +5,17 @@ Steps to setup the project
 To run the API
 
 1. $ cd /path/to/www/
-2. $ git clone https://github.com/rafeequekhp134/WightRabbitTest WRCodeTest
-3. Create a MySQL database with the name 'wrcodetest'.
-4. Edit the .env file if you have any change in database host, username or password.
-5. $ cd WRCodeTest
-6. $ composer update
-7. $ php artisan migrate
-8. $ php artisan serve
+2. $ git clone https://github.com/rafeequekhp134/DonaTest.git
+3. Create a MySQL database with the name 'donatest'.
+4. Copy the .env.example to .env and edit the configs if you have any change in database host, username or password.
+5. $ cd DonaTest
+6. $ composer install
+7. $ npm install
+8. $ php artisan key:generate
+9. $ php artisan jwt:secret
+10. $ php artisan migrate
+11. $ php artisan db:seed
+12. $ php artisan serve
 
 To run the UI
 
